@@ -18,7 +18,7 @@ export default function Header() {
       <div className="container mx-auto flex items-center justify-between p-4">
         <div className="flex items-center space-x-2">
           <Lightbulb className="size-6" />
-          <h1 className="text-xl font-bold">Todo App</h1>
+          <h1 className="text-xl font-bold">Perplexity Clone</h1>
         </div>
 
         <nav className="absolute left-1/2 hidden -translate-x-1/2 space-x-4 md:flex">
@@ -26,8 +26,8 @@ export default function Header() {
             Home
           </Link>
           <SignedIn>
-            <Link href="/todo" className="hover:underline">
-              Todo
+            <Link href="/search" className="hover:underline">
+              Search
             </Link>
           </SignedIn>
         </nav>
@@ -71,11 +71,11 @@ export default function Header() {
             <SignedIn>
               <li>
                 <Link
-                  href="/todo"
+                  href="/search"
                   className="block hover:underline"
                   onClick={toggleMenu}
                 >
-                  Todo
+                  Search
                 </Link>
               </li>
             </SignedIn>

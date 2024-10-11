@@ -13,8 +13,8 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Todo App",
-  description: "A full-stack template for a todo app."
+  title: "Perplexity Clone",
+  description: "A full-stack template for a Perplexity clone."
 }
 
 export default async function RootLayout({

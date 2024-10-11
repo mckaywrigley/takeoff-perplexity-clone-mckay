@@ -9,7 +9,7 @@ export default function SignUpPage() {
 
   return (
     <SignUp
-      forceRedirectUrl="/todo"
+      forceRedirectUrl="/search"
       appearance={{ baseTheme: theme === "dark" ? dark : undefined }}
     />
   )

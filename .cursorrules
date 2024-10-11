@@ -1,6 +1,6 @@
 # Project Instructions
 
-Use the project specification and guidelines as you build the todo app.
+Use the project specification and guidelines as you build the Perplexity clone.
 
 Write the complete code for every step. Do not get lazy.
 
@@ -8,7 +8,7 @@ Your goal is to completely finish whatever the user asks for.
 
 ## Overview
 
-Todo app is a web app that allows you to manage your todos.
+Perplexity clone is a web app that allows you to search the web and get an AI generated answer.
 
 ## Tech Stack
 

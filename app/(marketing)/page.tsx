@@ -8,8 +8,8 @@ export default async function HomePage() {
   return (
     <main className="flex min-h-screen flex-col items-center gap-4 p-24">
       <SignedIn>
-        <div>Welcome to Todo App</div>
-        <Link href="/todo">
+        <div>Welcome to Perplexity Clone</div>
+        <Link href="/search">
           <Button>Start Searching &rarr;</Button>
         </Link>
       </SignedIn>

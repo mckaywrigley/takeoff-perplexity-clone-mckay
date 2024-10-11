@@ -9,7 +9,7 @@ export default function LoginPage() {
 
   return (
     <SignIn
-      forceRedirectUrl="/todo"
+      forceRedirectUrl="/search"
       appearance={{ baseTheme: theme === "dark" ? dark : undefined }}
     />
   )
