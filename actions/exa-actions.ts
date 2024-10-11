@@ -17,13 +17,14 @@ export async function searchExaAction(userQuery: string): Promise<
 > {
   try {
     const exaResponse = await exa.searchAndContents(userQuery, {
-      type: "nerual",
+      type: "neural",
       useAutoprompt: true,
       numResults: 5,
       text: true,
       livecrawl: "always",
       summary: true
     })
+    console.log(exaResponse)
 
     const formattedResults = exaResponse.results.map(r => ({
       title: r.title || "Untitled",

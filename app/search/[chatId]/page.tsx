@@ -41,7 +41,6 @@ async function ChatAreaFetcher({
     <ChatArea
       initialMessages={messages || []}
       initialSources={sources || []}
-      chatId={chatId}
       userId={userId}
     />
   )
