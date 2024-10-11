@@ -127,6 +127,7 @@ It uses Next.js, Tailwind, Shadcn, and Framer Motion.
 - Use `"use server"` at the top of the file
 - Implement Suspense for asynchronous data fetching
 - Use a separate fetcher component for data loading (see example below)
+- Make sure to use `async` for all pages and components if they are server components
 
 Example of a server page:
 
